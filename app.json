@@ -12,6 +12,12 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "extra": {
+      "expoRouterAppRoot": "app",
+      "eas": {
+        "projectId": "a4b1164f-b1e6-4fc9-879b-9d5390468834"
+      }
+    },
     "ios": {
       "supportsTablet": true
     },
@@ -19,7 +25,9 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "project.furniture"
+
     },
     "web": {
       "bundler": "metro",
